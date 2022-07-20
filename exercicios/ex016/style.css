@@ -1,0 +1,33 @@
+@charset "URF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right,#F1D8C9,#F2C3A7);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;  /* colocando bordas arrendondadas */
+    box-shadow: 5px 5px 15px #614e43;  /* colocando sombras, 1ª quanto ela vai pro lado. 2ª quanto para baixo. 3ª quanto vai espalhar. 4ª qual cor ela vai ser. */
+    width: 600px; /* largura */
+    padding: 10px;  /* preenchimento */
+    margin: auto; /* deixar sempre no centro */
+}
+
+h1 {
+    color:#F39209;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(109, 66, 6, 0.663); /* colocando sombras */
+}
+
+h2 {
+    color:#125189 ;
+}
+
+p {
+    text-align: justify;  /*organizar o texto */
+}
+
