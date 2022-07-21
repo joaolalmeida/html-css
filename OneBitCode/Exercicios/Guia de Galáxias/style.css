@@ -1,0 +1,20 @@
+body {
+  background-color: #ddff0085;
+  border: 10px;
+  border-radius: ;
+  text-align: center;
+}
+h1,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(23, 149, 199, 0.959);
+}
+hr {
+  height: 3px;
+  background-color: black;
+}
+
+ol {
+  border-radius: 10px;
+  background-color: rgba(255, 127, 80, 0.596);
+}
