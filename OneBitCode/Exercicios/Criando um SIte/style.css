@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #000;
+}
+
+header nav {
+  position: relative;
+  width: 100vw;
+  z-index: 999;
+  height: 5rem;
+  display: flex;
+  background: #000;
+  align-items: center;
+  justify-content: space-between;
+}
+header nav .menu {
+  width: 40vw;
+  justify-content: space-around;
+  display: flex;
+  margin-right: 5rem;
+}
+header nav .menu a {
+  margin: 1rem;
+  text-decoration: none;
+  color: #b5b5b3;
+  transition: 0.5s;
+}
+header nav .menu a:hover {
+  color: #fff;
+  position: relative;
+  top: -0.2rem;
+  font-style: italic;
+}
+
+header nav #logo a img {
+  width: 20rem;
+  margin-left: 5rem;
+}
+.divisor1 {
+  position: relative;
+  z-index: 999;
+  width: 100vw;
+  height: 1rem;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 93, 156, 1) 100%
+  );
+}
+.divisor2 {
+  position: absolute;
+  top: 1rem;
+  width: 100vw;
+  height: 1rem;
+  background: rgb(0, 93, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 93, 156, 1) 0%,
+    rgba(0, 0, 0, 1) 86%
+  );
+}
+#wallpaper {
+  position: absolute;
+  width: 100vw;
+  z-index: 0;
+}
+section {
+  position: relative;
+  color: #fff;
+  width: 80vw;
+  margin-inline: auto;
+}
+/* DESCRIPTION SECTION */
+section#description h1 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+}
+section#description p {
+  width: 80vw;
+  line-height: 2.5rem;
+  text-align: justify;
+  font-size: 1.3rem;
+}
+
+/* SERVICES SECTION */
+section#services h1 {
+  margin-top: 25rem;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+section#prices h1 {
+  margin-top: 16rem;
+  margin-inline: auto;
+  font-size: 2.5rem;
+}
+
+section#services .cards {
+  display: flex;
+  margin-top: 2rem;
+  height: 35rem;
+  width: 80vw;
+  justify-content: space-between;
+}
+
+section#services .cards .card {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  background: #fff;
+  width: calc(80vw / 3.3);
+  border-radius: 20px;
+  padding: 2rem;
+  transition: 0.5s;
+}
+
+section#services .cards .card:hover {
+  position: relative;
+  top: -1rem;
+}
+
+section#services .cards .card .icon {
+  max-width: 256px;
+}
+
+section#services .cards .card p {
+  margin-top: 2rem;
+  color: #000;
+  text-align: justify;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+/* PRICES SECTION */
+section#prices {
+  margin-bottom: 5rem;
+}
+section#prices table {
+  margin-top: 4rem;
+  width: 80vw;
+  margin-inline: auto;
+}
+
+section#prices table {
+  margin-inline: auto;
+  margin-block: 2rem;
+  line-height: 2rem;
+}
+
+section#prices table th {
+  text-align: left;
+  font-size: 1.8rem;
+}
+
+section#prices th,
+section#prices td {
+  /*    border-radius: 10px; */
+  margin-inline: 2rem;
+  padding-inline: 1rem;
+  padding-block: 0.4rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+section#prices table th {
+  color: rgb(221, 221, 221);
+  background: #0c0942;
+}
+
+section#prices table tr.light-row {
+  color: black;
+  background: #fff;
+}
+
+section#prices table tr.dark-row {
+  color: rgb(221, 221, 221);
+  background: #2f4482;
+}
+
+#wallpaper2 {
+  left: -8rem;
+  position: absolute;
+  top: 35rem;
+  width: 100vw;
+}
