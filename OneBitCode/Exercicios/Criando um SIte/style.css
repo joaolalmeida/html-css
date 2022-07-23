@@ -69,8 +69,7 @@ header nav #logo a img {
 }
 #wallpaper {
   position: absolute;
-  width: 100vw;
-  z-index: 0;
+  width: 100vh;
 }
 section {
   position: relative;
