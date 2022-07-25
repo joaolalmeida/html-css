@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  align-items: center;
+}
+.logo-rock {
+  width: 40px;
+}
+
+.logo-onebitcode {
+  width: 200px;
+}
+
+.buttons {
+  display: flex; /* para deixar os itens lado a lado */
+  gap: 10px; /* espaçamento */
+}
+
+.buttonheader {
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  cursor: pointer; /* passar o cursor em cima muda o ponteiro do mouse */
+  transition: 0.4s; /* faz a animação demorar um pouco para acontecer */
+}
+.buttonheader:hover {
+  /*para fazer a animação ao passar o mouse em cima */
+  border-color: red;
+}
